@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Tamara Chornobay</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<h1>Introduction to Programming</h1>
+<h4>by Tamara Chornobay</h4>
+<div class="part1">
+  <h2>Part1: HTML and Web. Basics.</h2>
+  <div class="container1">
+     <div class="concept1">
+      <div class="title">Concept of Internet in short</div>
+               <div class="description">
+        <span class="italic">Major elements:</span>
+        <ul>
+        <li>Personal Computer and Browser</li>
+        <li>Internet</li>
+        <li>Servers</li></ul>
+        Browser sends a request via Internet to Server using a protocol called <span class="italic">http</span>. 
+        Server replies with files, that the Browser displayes.
+        See <a href="https://www.udacity.com/course/viewer#!/c-ud721/l-3508959201/e-48329854/m-48480496">
+        this video</a> to know more.
+      </div>
+    </div>
+    <div class="concept1">
+      <div class="title">HTML</div>
+        <div class="description">
+        <p><span class="italic">HTML - HyperText Markup Language</span> is the standart most used  programming language to
+        write a web page. HTML documents include <span class="italic">text content</span> 
+        (what you see) and <span class="italic">markup</span> (how it looks like).
+        </p>
+        </div>
+    </div>
+      <div class="concept1">
+      <div class="title">Tags</div>
+       <div class="description"> 
+       <p>HTML documents are made of HTML elements. Elements are created from tags.<span class="italic">HTML tags</span> are special marks that specify the format of content. Most of tags come in pairs, means you have an opening and closing tag. Some of them are <span class="italic">void</span> and need no closing tag.</p>
+        </div>
+    </div>
+    <div class="concept1">
+      <div class="title">Do not forget</div>
+        <div class="description">
+        <p>Computers are just mashines, which are following a direct command of humans (programmer). Programmers are just human beings, they can make mistakes and it can drive them crazy. But it is normal, every problem has a solution. So keep calm and enjoy.</p>  
+        </div>
+    </div>
+      </div>
+      </div>
+
+<br>
+<div class="part2">
+  <h2>Part2: HTML, CSS and DOM</h2> 
+  <div class="container2">
+    <div class="concept2">
+      <div class="title">CSS & DOM</div>
+        <div class="description">
+        <p><span class="italic">Cascading Style Sheets (CSS)</span> is a design language for electronic documents. With CSS you can determine for example layouts, colours and typography of your page. Together with <span class="italic">HTML</span> and 
+        <span class="italic">DOM</span> it is the key language of a World Wide Web.
+        </p>
+        <p><span class="italic">Document Object Model (DOM)</span> is organized in a tree-like structure.
+        Every HTML document contains three main nodes, wich are: elements, attributes and text. 
+        In praxis a browser turns <span class="italic">HTML tags</span> into <span class="italic">elements</span> that form a tree. It lookes like a lot of boxes in boxes in boxes. <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/m-2596138815">
+        This video</a> gives you a very good explanation.
+      </p>
+      Example for a tree-like structure:
+      <br><img src="image/Tree.jpg" alt="image">
+        </div>
+    </div>
+    <div class="concept2">
+      <div class="title">The Box Model</div>
+        <div class="description">
+        <span class="italic">The Box Model</span> consist of four borders, which have separate properties. These borders are:
+          <ul><li>content</li>
+              <li>padding</li>
+              <li>border</li>
+              <li>margin</li></ul>
+              There are two possibilities to calculate the box size, in pixels or in percentages. If the box-size is calculated in percentages, the size of the box will changing depending of how big the screen is or encompassing the box is. When the box-size is calculated in pixels, the box will have exactly same size no matter what happens.
+              <p>To adapt the width of padding and border automaticly you can use the next CSS option:
+              <br>*{
+                  box-sizing: border-box;
+              } 
+              <br><br>To be sure that all sites can display this code, you need to add some <span class="italic">browserspecific prefixes</span>. So it looks this way:
+              <br>*{
+              <br>-webkit-box-sizing: border-box;
+              <br>-moz-box-sizing: border-box;
+              <br>-ms-box-sizing: border-box;
+              <br>box-sizing: border-box;<br>
+            }</p>
+           
+        </div>
+    </div>
+    <div class="concept2">
+      <div class="title">Code, Test, Refine<br>Avoiding repetition</div>
+        <div class="description">
+        Here are five main rules you sould follow by making a Web Page:
+          <img src="image/CodeTest.jpg" alt="image">
+          <br><br>Here are also two important links,where you can verify your HTML and CSS Codes:
+          <br><a href="http://validator.w3.org/#validate_by_input">For HTML Code </a>
+          <br><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">For CSS Code </a>
+            <p>And last, but not least, there are a lot of reasons why repetition while coding should be avoiding.
+            Few of them:
+            <ul><li>Repetition means a lot of double work, means to write the same code over and over again. Better way is to define same classes</li>
+                <li>If a programmer makes some changes in one code and does not change the style  immediately in all repeated codes, problems can occur.</li>
+            </ul> 
+      
+    </div>   
+  </div>
+ </div>
+</div>
+
+
+</body>
+
+</html>
